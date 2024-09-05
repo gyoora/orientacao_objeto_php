@@ -38,7 +38,9 @@
 
 /////////////////////////////////////////////////////////////////////       
         public function retirar ($valor){
-            $this -> saldo -= $valor;
+            if($valor > 0){
+                $this -> saldo -= $valor;
+            }
         }
         public function depositar ($valor){
             $this -> saldo += $valor;
