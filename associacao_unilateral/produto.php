@@ -24,8 +24,5 @@
         public function getFornecedor() {
             return $this -> fornecedor;
         }
-        public function setFornecedor(Fornecedor $fornecedor) {
-            $this -> fornecedor[] = fornecedor;
-        }
     }
 ?>
