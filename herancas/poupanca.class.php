@@ -1,6 +1,6 @@
 <?php
 
-    class Poupanca extends Conta {
+    final class Poupanca extends Conta {
 
         public function __construct(private int $aniversario = 0, $agencia, $numero, $titular, $saldo){
             parent::__construct($agencia, $numero, $titular, $saldo);
