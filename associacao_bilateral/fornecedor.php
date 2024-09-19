@@ -25,7 +25,7 @@
             return $this -> produto;
         }
         public function setProduto(Produto $produto) {
-            $this -> produto[] = produto;
+                $this -> produto[] = $produto;
         }
     } //Fim da classe.
 

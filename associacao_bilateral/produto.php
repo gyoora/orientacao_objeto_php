@@ -11,14 +11,14 @@
         public function getNome() {
             return $this -> nome;
         }
-        public function getDescicao() {
+        public function getDescricao() {
             return $this -> descricao;
         }
         public function getPreco() {
             return $this -> preco;
         }
         public function getEstoque() {
-            return $this -> destoque;
+            return $this -> estoque;
         }
         public function getFornecedor() {
             return $this -> fornecedor;
