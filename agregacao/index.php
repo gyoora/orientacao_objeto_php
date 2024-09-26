@@ -21,7 +21,11 @@
         array($produto1, $produto2)
     );
 
-    echo "<pre>";
-    echo ($categoria);
-    echo "</pre>";
+    // echo "<pre>";
+    // echo ($categoria);
+    // echo "</pre>";
+
+    echo '<h1>Categoria</h1><br>';
+    echo "Descrição: {$categoria -> getDescritivo()}<br>";
+    echo '<h1>Produtos</h1><br>';
 ?>
