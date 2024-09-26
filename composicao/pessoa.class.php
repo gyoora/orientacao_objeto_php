@@ -1,11 +1,26 @@
 <?php
     class Pessoa{
         public function _construct(
-            private string $nome = ''
-        ){}
+            private string $nome = '',
+            private array $endereco = array(),
+            $logradouro,
+            $numero, 
+            $cep, 
+            $pessoa 
+        ){
+            $this -> endereco[] = new Endereco(
+            $logradouro,
+            $numero,
+            $cep,
+            $pessoa
+            );
+        }
 
         public function getNome(){
-            return $this -> nome
+            return $this -> nome;
+        }
+        public function getEndereco(){
+            return $this -> endereco;
         }
     }
 ?>
